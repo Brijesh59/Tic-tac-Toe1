@@ -1,0 +1,68 @@
+body{
+  margin: 0px auto;
+}
+#info{
+  margin-bottom: 10px;
+}
+span{
+  color:  #9900cc;
+  margin: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#game{
+  border: none;
+  box-shadow: none;
+  width:90%;
+  height:85vh;
+  margin:0px auto;
+  margin-top:5%;
+  padding: 20px;
+  text-align: center;
+}
+
+td{
+  border: 1px solid black;
+  width: 10vw;
+  height: 14vh;
+}
+table{
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+#playAgain{
+  display: none;
+}
+#winner{
+  display: none;
+  margin: 0px auto;
+  width: 15vw;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+@media(max-width:1024px){
+  #game{
+    border: none;
+    box-shadow: none;
+    width:90%;
+    height:85vh;
+    margin:0px auto;
+    margin-top:5%;
+  }
+  td{
+    border: 1px solid black;
+    width: 15vh;
+    height: 15vh;
+  }
+  span{
+  color:  #9900cc;
+  margin: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  }
+  #winner{
+    width:30vh
+  }
+}
